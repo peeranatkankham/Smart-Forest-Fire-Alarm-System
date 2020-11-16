@@ -4,4 +4,4 @@ Forest fire alarm system with Esp32 and E32 Lora
 
 
 Dashboard in Thinger.io
-shorturl.at/gAT08
+link : shorturl.at/gAT08
