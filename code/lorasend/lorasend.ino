@@ -126,6 +126,7 @@ void Dust(){
   delayMicroseconds(sleepTime);
   calcVoltage = voMeasured * (3.3 / 4096.0);
   dustDensity = 0.17 * calcVoltage - 0.1;
+  dustDensity = dustDensity* 1000;
   Serial.println(dustDensity);
   delay(1000);
 }
