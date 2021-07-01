@@ -8,13 +8,13 @@
 #define tx 17                                          //LORA RX 
 HardwareSerial mySerial(1);
 
-#define USERNAME "peeranat"
-#define DEVICE_ID "esp32"
-#define DEVICE_CREDENTIAL "peeranatkankham"
+#define USERNAME "tinkerio username"
+#define DEVICE_ID "device name"
+#define DEVICE_CREDENTIAL "CREDENTIAL"
 
-#define SSID "Mi Mix 2"
-#define SSID_PASSWORD "88888888"
-#define LINE_TOKEN  "7CItLr8vbGZYBPur6KrYtCjn58oUaP3254WBlBkxEVi"
+#define SSID "Wifi Name"
+#define SSID_PASSWORD "password"
+#define LINE_TOKEN  "LINE_TOKEN"
 ThingerESP32 thing(USERNAME, DEVICE_ID, DEVICE_CREDENTIAL);
 
 TaskHandle_t Task1;
